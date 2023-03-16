@@ -34,12 +34,17 @@ body {
 }
 
 #profile-image {
-  padding: .063rem;
+  padding: .0065rem;
   background-color: #666;
-width: 7.5rem;
-height: 7.5rem;
-border-radius: 50%;
+width: 9.5rem;
+height: 9.5rem;
+border-radius: 100%;
+border-width: 10px;
+border-style: double;
+border-color: #FFFFFF;
 filter: grayscale(50%);
+display: inline-block;
+    
 }
 
 #profile-image:hover {
@@ -59,9 +64,11 @@ ul {
 
 li {
   display: inline;
+  opacity: 1;
+  transform: none;
 }
 
-.head, .about {
+.head, #about {
   margin-bottom: 10%;
 }
 
@@ -79,6 +86,32 @@ background: url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-269556
 background-size: cover;
 
 }
+
+h1, h2 {
+  font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.links {
+  border-top-style: double;
+}
+
+
+
+a {
+  box-sizing: border-box;
+  font-size: 2.75em;
+  gap: 1.2rem;
+  border-style: dotted;
+  border-radius: 5%;
+
+}
+
 
 
 /* 
