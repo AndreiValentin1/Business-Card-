@@ -11,7 +11,8 @@
   border-radius: .50rem;
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
     width: 35rem;
-  max-width: calc(100vw - 10px);
+  max-width: calc(100vw - 50px);
+  display: flex;
 }
 
 
@@ -103,14 +104,8 @@ p {
 
 
 
-a {
-  box-sizing: border-box;
-  font-size: 2.75em;
-  gap: 1.2rem;
-  border-style: dotted;
-  border-radius: 5%;
 
-}
+ 
 
 
 
