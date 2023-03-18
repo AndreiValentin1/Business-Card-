@@ -155,6 +155,10 @@ a:hover {
   transform: scale(1.1);
 }
 
+.l2 {
+  transform: scale(1.1);
+}
+
 .head, #about {
   margin-bottom: 10%;
 }
