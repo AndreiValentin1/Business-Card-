@@ -102,6 +102,26 @@ body {
 
 }
 
+.gradient-background {
+  background: linear-gradient(300deg, #001E6C, #035397, #5089C6);
+  background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
 .head, .links {
   text-align: center;
 }
@@ -178,7 +198,6 @@ background-repeat: no-repeat;
 background-position: center center;
 background-attachment: fixed;
 overflow: hidden;
-background: url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg') no-repeat center center fixed;
 background-size: cover;
 
 }
@@ -194,11 +213,12 @@ p {
 }
 
 .wrapper-links {
-  box-sizing: border-box;
+  display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-wrap: nowrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .l1 {
